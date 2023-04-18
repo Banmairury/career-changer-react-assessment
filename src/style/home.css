@@ -1,0 +1,25 @@
+h1 {
+   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-size: 48px;
+}
+
+.sector button {
+  width: 178px;
+  height: 56px;
+  border: 0px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: bolder;
+  line-height: 19px;
+  padding: 16px;
+  margin: 0 80px;
+  transition: 0.3s;
+}
+.sector button:hover {
+  color: rgb(51, 211, 2);
+  transform: translate(0, -2px);
+}
+

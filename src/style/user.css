@@ -1,0 +1,23 @@
+.user-table {
+  display: flex;
+  justify-content: center;
+}
+.user-table table {
+  margin: 90px;
+}
+.user-table table,.user-table th,.user-table td {
+  border: 1px solid #b4b3b3;
+  border-collapse: collapse;
+  text-align: center;
+}
+.user-table th {
+  background-color: #dddddd;
+}
+.user-table td {
+  background-color: #ffffff;
+}
+.user-table th,
+.user-table td {
+  width: 200px;
+  height: 36px;
+}

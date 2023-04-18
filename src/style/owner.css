@@ -1,0 +1,12 @@
+div{
+    text-align: center;
+}
+img{
+    margin: 30px;
+    width: 270px;
+    height: 220px;
+    border: 5px dashed lightsalmon; 
+}
+h5{
+    margin-bottom: 10px;
+}

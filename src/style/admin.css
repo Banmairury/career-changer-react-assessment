@@ -1,0 +1,75 @@
+.admin-input h3 {
+  text-align: start;
+  margin: 36px 160px 7px 160px;
+}
+.admin-input div {
+  display: flex;
+  justify-content: space-around;
+  margin: 7px 100px;
+}
+input {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 48px;
+  padding: 20px;
+  font-size: 1.5rem;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+}
+.btn-save {
+  width: 63px;
+  height: 48px;
+  color: white;
+  background-color: #5e5bff;
+  border: 1px solid #5e5bff;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-save:hover {
+  color: rgb(211, 207, 2);
+  transform: translate(0, -2px);
+  font-weight: bolder;
+  font-size: 18px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.admin-table {
+  display: flex;
+  justify-content: center;
+}
+.admin-table table {
+  margin: 90px;
+}
+.admin-table table,
+.admin-table th,
+.admin-table td {
+  border: 1px solid #b4b3b3;
+  border-collapse: collapse;
+  text-align: center;
+}
+.admin-table th {
+  background-color: #dddddd;
+}
+.admin-table td {
+  background-color: #ffffff;
+}
+.admin-table th,
+.admin-table td {
+  width: 200px;
+  height: 36px;
+}
+.admin-table tbody button {
+  font-weight: bolder;
+  width: 90%;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid red;
+  transition: 0.3s;
+}
+.admin-table tbody button:hover {
+  color: rgb(255, 255, 255);
+  transform: translate(0, -2px);
+  
+}
