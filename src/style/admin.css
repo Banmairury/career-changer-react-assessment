@@ -1,11 +1,15 @@
 .admin-input h3 {
   text-align: start;
-  margin: 36px 160px 7px 160px;
+  margin: 36px 160px 7px 20%;
+  
+  
 }
 .admin-input div {
   display: flex;
-  justify-content: space-around;
-  margin: 7px 100px;
+  justify-content: center;
+  margin: 7px 10px;
+  gap: 30px;
+  
 }
 input {
   background-color: rgb(255, 255, 255);

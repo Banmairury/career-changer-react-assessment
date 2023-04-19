@@ -4,7 +4,7 @@ const User = (props) => {
   const {employees} = props
 
   return (
-    <dev className="user-table" >
+    <div className="user-table" >
       <table>
         <thead>
           <tr>
@@ -25,7 +25,7 @@ const User = (props) => {
           })}
         </tbody>
       </table>
-    </dev>
+    </div>
   );
 };
 

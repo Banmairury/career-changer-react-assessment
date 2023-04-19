@@ -3,6 +3,7 @@ import "./style/home.css";
 import { useState, useEffect } from "react";
 import User from "./components/User";
 import Admin from "./components/Admin";
+import { v4 as uuidv4 } from 'uuid';
 
 const mockEmployees = [
   {
@@ -26,8 +27,10 @@ const mockEmployees = [
 ];
 
 const Home = () => {
+
   const [employees, setEmployees] = useState([]);
   const [sector, setSector] = useState();
+
   useEffect(() => {
     setEmployees(mockEmployees);
   }, []);
@@ -62,7 +65,7 @@ const Home = () => {
 
   //เพิ่มรายชื่อ
   const addUser = (fname, lname, eposition) => {
-    const newId = Math.floor(Math.random() * 1000000);;
+    const newId = uuidv4();
     const newEmployees = [
       {
         id: newId,

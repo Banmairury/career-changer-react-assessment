@@ -8,7 +8,7 @@ const Admin = (props) => {
   const { employees, deleteEmployees, addUser } = props;
 
   return (
-    <dev className="admin-input">
+    <div className="admin-input">
       <h3>Create User Here</h3>
       <div>
         <input
@@ -61,7 +61,7 @@ const Admin = (props) => {
           </tbody>
         </table>
       </div>
-    </dev>
+    </div>
   );
 };
 
