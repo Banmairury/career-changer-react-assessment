@@ -10,6 +10,7 @@ const Owner = () => {
       <img src={profile}  />
       <h5>Short Biography :</h5>
       <p>Hi, My name is Teerapong Banmairuruy. Nickname Beer.</p>
+      <p>Bachelor information managment  Suan Sunandha Rajabhat University</p>
     </div>
       
     </Layout>
