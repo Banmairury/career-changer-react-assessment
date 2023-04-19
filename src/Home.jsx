@@ -48,7 +48,7 @@ const Home = () => {
     } else if (sector === "user") {
       return <User employees={employees} />;
     } else {
-      return <div>กดไรก็กด!!!!!</div>;
+      return <div>เชิญกดจ้า!!!!!</div>;
     }
   };
 
